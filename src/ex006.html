@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            font-size: 40px;
+            background: cadetblue;
+            color: #fff;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+    <!--6) Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.-->
+
+    <script>
+
+        var valorHora = Number(window.prompt('Valor recebido por hora trabalha:'));
+        var horaTrab = Number(window.prompt('Quantas horas trabalhou no mês: '));
+
+        var valorTotal = valorHora * horaTrab;
+
+        document.write(`Valor por hora ${valorHora} reais, Você trabalhou ${horaTrab} horas esse mês. total do salario é ${valorTotal}`);
+
+    </script>
+
+
+
+</body>
+</html>
